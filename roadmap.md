@@ -16,17 +16,17 @@
 - [x] Get Anthropic API key → connect to Bot
 - [x] Set up Zapier MCP account
 - [x] Connect Gmail via Zapier MCP
-- [ ] Connect Google Calendar via Zapier MCP
-- [ ] Test Bot reading your calendar in Telegram
+- [x] Connect Google Calendar via Zapier MCP
+- [x] Test Bot reading your calendar in Telegram
 - [x] Test Bot reading your emails in Telegram
 
 ---
 
 ## Phase 3 — Morning Briefing
-- [ ] Write your SOUL.md (Bot's personality + instructions)
-- [ ] Configure daily 7am cron schedule in OpenClaw
-- [ ] Set morning briefing prompt (calendar + email + news)
-- [ ] Test first full morning briefing in Telegram
+- [x] Write your SOUL.md (Bot's personality + instructions)
+- [x] Configure daily 9am cron schedule in OpenClaw
+- [x] Set morning briefing prompt (calendar + email + news)
+- [x] Test first full morning briefing in Telegram
 - [ ] Refine format until you're happy with it
 
 ---
