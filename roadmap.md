@@ -32,17 +32,17 @@
 ---
 
 ## Phase 4 — Two-Way Control
-- [ ] Test modifying calendar via Telegram ("move my 3pm to 5pm")
+- [x] Test modifying calendar via Telegram ("move my 3pm to 5pm")
 - [ ] Test email drafting via Telegram ("draft a reply to Sarah")
 - [ ] Test on-demand queries ("any urgent emails?")
 
 ---
 
 ## Phase 5 — News Digest
-- [ ] Enable OpenClaw web search
-- [ ] Configure news sources (tech, cybersecurity, AI)
-- [ ] Add news section to morning briefing prompt
-- [ ] Test and refine news summaries
+- [x] Enable OpenClaw web search
+- [x] Configure news sources (tech, cybersecurity, AI)
+- [x] Add news section to morning briefing prompt
+- [x] Test and refine news summaries
 
 ---
 
