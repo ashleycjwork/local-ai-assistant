@@ -2,71 +2,78 @@
 
 ---
 
-## Phase 1 — Foundation
+## Phase 1 — Setup ✅
 - [x] Install Node.js (v24)
 - [x] Install OpenClaw
 - [x] Connect Telegram
 - [x] Set up Ollama
 - [x] Pull local models (llama3.1:8b, qwen3.5:9b)
 - [x] Configure hybrid model (Ollama + Claude Haiku)
+- [x] Write SOUL.md (Bot's personality + instructions)
 
 ---
 
-## Phase 2 — Integrations
+## Phase 2 — Integrations ✅
 - [x] Get Anthropic API key → connect to Bot
-- [x] Set up Zapier MCP account
-- [x] Connect Gmail via Zapier MCP
-- [x] Connect Google Calendar via Zapier MCP
-- [x] Test Bot reading your calendar in Telegram
-- [x] Test Bot reading your emails in Telegram
+- [x] Set up Zapier MCP → migrated to Composio MCP
+- [x] Connect Gmail via Composio MCP
+- [x] Connect Google Calendar via Composio MCP
+- [x] Connect Google Tasks via Composio MCP
+- [x] Test Bot reading calendar in Telegram
+- [x] Test Bot reading emails in Telegram
 
 ---
 
-## Phase 3 — Morning Briefing
-- [x] Write your SOUL.md (Bot's personality + instructions)
+## Phase 3 — Morning Briefing ✅
+- [x] Write SOUL.md (Bot's personality + instructions)
 - [x] Configure daily 9am cron schedule in OpenClaw
 - [x] Set morning briefing prompt (calendar + email + news)
 - [x] Test first full morning briefing in Telegram
-- [ ] Refine format until you're happy with it
+- [x] Refine format — calendar, emails, and news digest working
 
 ---
 
 ## Phase 4 — Two-Way Control
-- [x] Test modifying calendar via Telegram ("move my 3pm to 5pm")
+- [x] Test modifying calendar via Telegram
+- [x] Test creating tasks via Telegram (via Composio)
 - [ ] Test email drafting via Telegram ("draft a reply to Sarah")
 - [ ] Test on-demand queries ("any urgent emails?")
 
 ---
 
-## Phase 5 — News Digest
+## Phase 5 — News Digest ✅
 - [x] Enable OpenClaw web search
 - [x] Configure news sources (tech, cybersecurity, AI)
-- [x] Add news section to morning briefing prompt
+- [x] Add news section to morning briefing
 - [x] Test and refine news summaries
 
 ---
 
 ## Phase 6 — Job Search
-- [ ] Feed Bot your CV once (paste into Telegram)
-- [ ] Set your job preferences (domains, visa status, experience level)
-- [ ] Configure daily job search (Seek, Indeed, Google Jobs)
-- [ ] Set up LinkedIn job alert emails → Gmail → Bot reads them
-- [ ] Test job digest in morning briefing
-- [ ] Set up Google Sheet via Zapier for application tracker
+- [x] Feed Bot all three CV versions (cybersecurity, data/AI, web dev)
+- [x] Feed Bot matching cover letter templates per track
+- [x] Set job preferences (485 visa, Melbourne, entry level, all domains)
+- [x] Configure daily 10am job search (Seek, Indeed, Google Jobs)
+- [x] Set up LinkedIn/Seek/Indeed job alert emails → Gmail → Bot reads them
+- [ ] Test job digest when it fires at 10am
+- [x] Set up Google Sheet application tracker via Composio
 - [ ] Test logging applications ("apply to job 1")
-- [ ] Test cover letter drafting ("draft cover letter for job 2")
+- [ ] Test cover letter drafting end to end
+- [ ] Test interview prep prompt
 
 ---
 
 ## Phase 7 — Pattern Learning
 - [ ] Manually populate calendar for 2–3 weeks
-- [ ] Ask Bot to analyse your calendar patterns
+- [ ] Ask Bot to analyse calendar patterns
 - [ ] Test weekly plan suggestions every Sunday night
 - [ ] Refine how assertive Bot is (suggest vs auto-book)
 
 ---
 
 ## Phase 8 — Polish
+- [ ] Revisit email monitor — explore webhook-based trigger instead of polling
+- [ ] Fix weather section appearing in morning briefing
 - [ ] Add cert/study tracker (Security+, AWS, etc.)
 - [ ] Add visa-friendly company watchlist
 - [ ] Tighten SOUL.md to minimise tokens
